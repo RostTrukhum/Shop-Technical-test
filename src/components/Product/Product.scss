@@ -1,0 +1,112 @@
+.pdp {
+    display: flex;
+    margin-top: 80px;
+}
+
+.all-photos {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.all-photos > img {
+    margin-top: 40px;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.all-photos > img:first-child {
+    margin-top: 0;
+}
+
+.main-photo > img {
+    width: 610px;
+    height: 511px;
+    margin-right: 100px;
+}
+
+.pdp-information {
+    width: 292px;
+}
+
+.brand {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.name {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.size {
+    margin-top: 43px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.size > ul {
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.size > ul > li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 63px;
+    height: 45px;
+    border: 1px solid #1D1F22;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.size-active {
+    background: #1D1F22;
+    color: white;
+}
+
+.pdp-price {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    & > span {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+}
+
+.add-to-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 292px;
+    height: 52px;
+    border: none;
+    background: rgba(94, 206, 123, 1);
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.pdp-descr {
+    width: 292px;
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.outStock {
+    border: 1px solid rgba(166, 166, 166, 1) !important;
+    color: rgba(166, 166, 166, 1);
+}

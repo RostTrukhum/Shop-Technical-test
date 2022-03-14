@@ -1,0 +1,90 @@
+.cart {
+    margin-top: 80px;
+}
+
+.cart-items {
+    margin-top: 59px;
+}
+
+hr {
+    margin-top: 19px;
+}
+
+.cart-item {
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    &-brand {
+        font-weight: 600;
+        font-size: 30px;
+    }
+    &-name {
+        margin-top: 16px;
+        font-weight: 400;
+        font-size: 30px;
+    }
+    &-price {
+        margin-top: 12px;
+        font-weight: 700;
+        font-size: 24px;
+    }
+    &-sizes {
+        width: 56px;
+        margin-top: 12px;
+        list-style: none;
+        padding: 0;
+    }
+    &-size {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #1D1F22;
+        color: white;
+        font-weight: 400;
+        font-size: 16px;
+        width: 63px;
+        height: 45px;
+    }
+    &-photo > img {
+        width: 141px;
+        height: 185px;
+    }
+    &-btns {
+        display: flex;
+        height: 185px;
+        width: 45px;
+        position: absolute;
+        right: 197px;
+        flex-direction: column;
+        height: 185px;
+    }
+}
+
+.cart-item-counter {
+    position: absolute;
+    top: 45%;
+    left: 20px;
+}
+
+.cart-item-counter-inc {
+    height: 45px;
+    border: 1px solid #1D1F22;
+    background: transparent;
+    font-size: 30px;
+}
+
+.cart-item-counter-dec {
+    position: absolute;
+    bottom: 0;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #1D1F22;
+    background: transparent;
+    font-size: 30px;
+}
+
+.cart-header {
+    font-weight: 700;
+    font-size: 32px;
+}
